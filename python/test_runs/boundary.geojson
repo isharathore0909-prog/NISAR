@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "boundary",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32643" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 600000.0, 2998000.0 ], [ 600000.0, 3000000.0 ], [ 602000.0, 3000000.0 ], [ 602000.0, 2998000.0 ], [ 600000.0, 2998000.0 ] ] ] } }
+]
+}

@@ -1,0 +1,115 @@
+# =========================
+# LOG FILES
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# NODE / REACT / ELECTRON
+# =========================
+node_modules/
+dist/
+dist-ssr/
+build/
+out/
+release/
+Output/
+
+*.local
+
+# =========================
+# VITE
+# =========================
+.vite/
+
+# =========================
+# ELECTRON BUILDER
+# =========================
+*.exe
+*.dmg
+*.AppImage
+*.deb
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+
+# =========================
+# PYTHON OUTPUT FILES
+# =========================
+python/outputs/
+python/temp/
+
+# =========================
+# JUPYTER / GIS TEMP
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# ENVIRONMENT VARIABLES & SECRETS
+# =========================
+.env
+.env.local
+python/ee-*.json
+*.pem
+*.key
+*.h5
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS CODE / IDE
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# GEO FILES (OPTIONAL)
+# =========================
+*.tif
+*.tiff
+*.img
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# =========================
+# GENERATED REPORTS
+# =========================
+reports/
+exports/
+
+# =========================
+# CACHE FILES
+# =========================
+.cache/
+tmp/
+temp/

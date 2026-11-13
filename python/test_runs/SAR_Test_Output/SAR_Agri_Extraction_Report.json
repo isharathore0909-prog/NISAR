@@ -1,0 +1,14 @@
+{
+    "mission": "SAR / NISAR Demonstration (Space Apps 2026)",
+    "sensor": "Sentinel-1 SAR (C-band operational proxy for NISAR)",
+    "period": "2024-02-01 to 2024-02-28",
+    "total_aoi_area_ha": 439.69,
+    "extracted_active_crop_area_ha": 348.09,
+    "crop_coverage_percentage": 79.17,
+    "mean_radar_metrics": {
+        "mean_RVI": 0.898,
+        "mean_VV_dB": -9.46,
+        "mean_VH_dB": -15.03,
+        "mean_cross_ratio_dB": -5.57
+    }
+}

@@ -1,0 +1,13 @@
+earthengine-api
+geemap
+requests
+geopandas
+rasterio
+flask
+flask-cors
+scipy
+shapely
+pandas
+numpy
+Pillow
+

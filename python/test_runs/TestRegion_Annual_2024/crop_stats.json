@@ -1,0 +1,365 @@
+{
+    "season": "Annual",
+    "run_type": "lulc",
+    "crops": {
+        "Fallow Cropland": {
+            "code": 1,
+            "area_ha": 0.0,
+            "area_acres": 0.0,
+            "percentage": 0.0,
+            "color_hex": "#D2B48C",
+            "pixels": 0
+        },
+        "Single Crop": {
+            "code": 2,
+            "area_ha": 126.04,
+            "area_acres": 311.45,
+            "percentage": 38.9,
+            "color_hex": "#FFD700",
+            "pixels": 12604
+        },
+        "Double Crop": {
+            "code": 3,
+            "area_ha": 197.96,
+            "area_acres": 489.17,
+            "percentage": 61.1,
+            "color_hex": "#FFA500",
+            "pixels": 19796
+        },
+        "Triple Crop": {
+            "code": 4,
+            "area_ha": 0.0,
+            "area_acres": 0.0,
+            "percentage": 0.0,
+            "color_hex": "#228B22",
+            "pixels": 0
+        }
+    },
+    "rotation_stats": {
+        "Rice \u2192 Wheat": {
+            "code": 1,
+            "area_ha": 81.0,
+            "area_acres": 200.16,
+            "percentage": 25.0,
+            "color_hex": "#3b82f6"
+        },
+        "Cotton \u2192 Mustard": {
+            "code": 2,
+            "area_ha": 81.0,
+            "area_acres": 200.16,
+            "percentage": 25.0,
+            "color_hex": "#10b981"
+        },
+        "Cotton \u2192 Fallow": {
+            "code": 3,
+            "area_ha": 81.0,
+            "area_acres": 200.16,
+            "percentage": 25.0,
+            "color_hex": "#f59e0b"
+        },
+        "Rice \u2192 Fallow": {
+            "code": 4,
+            "area_ha": 45.0,
+            "area_acres": 111.2,
+            "percentage": 13.9,
+            "color_hex": "#ec4899"
+        },
+        "Rice \u2192 Fallow \u2192 Vegetables": {
+            "code": 5,
+            "area_ha": 36.0,
+            "area_acres": 88.96,
+            "percentage": 11.1,
+            "color_hex": "#8b5cf6"
+        }
+    },
+    "farm_stats": [
+        {
+            "farm_id": "Plot-001",
+            "owner": "Farmer 1",
+            "village": "Rampur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 7.01,
+            "double_crop_ha": 8.99,
+            "triple_crop_ha": 0.0,
+            "intensity": "Outside AOI",
+            "rotation": "Outside / Non-cropland"
+        },
+        {
+            "farm_id": "Plot-002",
+            "owner": "Farmer 2",
+            "village": "Shyampur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 11.01,
+            "double_crop_ha": 8.99,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Rice \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-003",
+            "owner": "Farmer 3",
+            "village": "Govindpur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 20.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Rice \u2192 Wheat"
+        },
+        {
+            "farm_id": "Plot-004",
+            "owner": "Farmer 4",
+            "village": "Rampur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 16.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Rice \u2192 Wheat"
+        },
+        {
+            "farm_id": "Plot-005",
+            "owner": "Farmer 5",
+            "village": "Shyampur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 11.01,
+            "double_crop_ha": 8.99,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Rice \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-006",
+            "owner": "Farmer 6",
+            "village": "Govindpur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 16.01,
+            "double_crop_ha": 8.99,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Rice \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-007",
+            "owner": "Farmer 7",
+            "village": "Rampur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 25.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Rice \u2192 Wheat"
+        },
+        {
+            "farm_id": "Plot-008",
+            "owner": "Farmer 8",
+            "village": "Shyampur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 20.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Rice \u2192 Wheat"
+        },
+        {
+            "farm_id": "Plot-009",
+            "owner": "Farmer 9",
+            "village": "Govindpur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 20.0,
+            "double_crop_ha": 0.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Cotton \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-010",
+            "owner": "Farmer 10",
+            "village": "Rampur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 25.0,
+            "double_crop_ha": 0.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Cotton \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-011",
+            "owner": "Farmer 11",
+            "village": "Shyampur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 25.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Cotton \u2192 Mustard"
+        },
+        {
+            "farm_id": "Plot-012",
+            "owner": "Farmer 12",
+            "village": "Govindpur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 20.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Cotton \u2192 Mustard"
+        },
+        {
+            "farm_id": "Plot-013",
+            "owner": "Farmer 13",
+            "village": "Rampur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 16.0,
+            "double_crop_ha": 0.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Cotton \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-014",
+            "owner": "Farmer 14",
+            "village": "Shyampur",
+            "block": "Arain",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 20.0,
+            "double_crop_ha": 0.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Single Crop",
+            "rotation": "Cotton \u2192 Fallow"
+        },
+        {
+            "farm_id": "Plot-015",
+            "owner": "Farmer 15",
+            "village": "Govindpur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 20.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Cotton \u2192 Mustard"
+        },
+        {
+            "farm_id": "Plot-016",
+            "owner": "Farmer 16",
+            "village": "Rampur",
+            "block": "Srinagar",
+            "district": "Ajmer",
+            "area_ha": 25.0,
+            "area_acres": 61.78,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 16.0,
+            "triple_crop_ha": 0.0,
+            "intensity": "Double Crop",
+            "rotation": "Cotton \u2192 Mustard"
+        }
+    ],
+    "village_stats": {
+        "Rampur": {
+            "total_area_ha": 150.0,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 48.01,
+            "double_crop_ha": 65.99,
+            "triple_crop_ha": 0.0
+        },
+        "Shyampur": {
+            "total_area_ha": 125.0,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 42.02,
+            "double_crop_ha": 62.98,
+            "triple_crop_ha": 0.0
+        },
+        "Govindpur": {
+            "total_area_ha": 125.0,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 36.01,
+            "double_crop_ha": 68.99,
+            "triple_crop_ha": 0.0
+        }
+    },
+    "block_stats": {
+        "Arain": {
+            "total_area_ha": 200.0,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 126.04,
+            "double_crop_ha": 35.96,
+            "triple_crop_ha": 0.0
+        },
+        "Srinagar": {
+            "total_area_ha": 200.0,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 0.0,
+            "double_crop_ha": 162.0,
+            "triple_crop_ha": 0.0
+        }
+    },
+    "district_stats": {
+        "Ajmer": {
+            "total_area_ha": 400.0,
+            "fallow_ha": 0.0,
+            "single_crop_ha": 126.04,
+            "double_crop_ha": 197.96,
+            "triple_crop_ha": 0.0
+        }
+    }
+}

@@ -1,0 +1,20 @@
+========================================================
+    ANNUAL CROPPING INTENSITY & ROTATION REPORT
+========================================================
+
+Region: TestRegion
+Year: 2024
+Total Agricultural Area: 324.00 ha
+
+--- CROPPING INTENSITY SUMMARY ---
+Single Crop Area: 126.04 ha (38.9%)
+Double Crop Area: 197.96 ha (61.1%)
+Triple Crop Area: 0.00 ha (0.0%)
+Fallow Cropland : 0.00 ha (0.0%)
+
+--- CROP ROTATION SUMMARY ---
+Rice → Wheat                  :       81.0 ha (25.0%)
+Cotton → Mustard              :       81.0 ha (25.0%)
+Cotton → Fallow               :       81.0 ha (25.0%)
+Rice → Fallow                 :       45.0 ha (13.9%)
+Rice → Fallow → Vegetables    :       36.0 ha (11.1%)

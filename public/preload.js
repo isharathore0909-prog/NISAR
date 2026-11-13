@@ -1,0 +1,6 @@
+const { contextBridge, ipcRenderer } = require("electron");
+
+contextBridge.exposeInMainWorld("electron", {
+  selectFolder: () => ipcRenderer.invoke("dialog:openDirectory"),
+  getSystemStats: () => ipcRenderer.invoke("system:getStats"),
+});
